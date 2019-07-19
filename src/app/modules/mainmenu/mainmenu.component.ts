@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Platform } from '@ionic/angular';
+import { Routes } from '@angular/router';
 
 @Component({
   selector: 'app-mainmenu',
@@ -21,7 +21,7 @@ export class MainmenuComponent implements OnInit {
     }
   ];
 
-  constructor() { }
+  constructor(private: Routes) { }
 
   ngOnInit() {}
 
