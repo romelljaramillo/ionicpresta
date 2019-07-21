@@ -1,0 +1,59 @@
+<ion-grid>
+  <ion-row>
+    <ion-col *ngFor="let item of [1,1,1,1,1,1,1,1,1,1,1,1]"  size="3" size-lg="3" size-md="4" size-xs="6">
+      <ion-card>
+        <ion-img src="/assets/shapes.svg"></ion-img>
+
+        <ion-card-header>
+          <ion-card-title>Card Title</ion-card-title>
+          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+            <ion-grid>
+              <ion-row>
+                <ion-col>
+                  <ion-text color="danger">
+                    599<span class="small"> €</span>
+                  </ion-text>
+                </ion-col>
+                <ion-col>
+                  <div class="tarjeta-articulo__pvp-y-dto">
+                    <div class="tarjeta-articulo__pvp">
+                      <meta itemprop="price" content="899.01">
+                      <meta itemprop="priceCurrency" content="EUR"><span>899,01</span>€
+                    </div>
+                  </div>
+                </ion-col>
+                <ion-col class="tarjeta-articulo__descuento">
+                    34 %
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+        </ion-card-content>
+
+        <ion-row class="ion-no-padding ion-justify-content-center">
+          <ion-col size="4" class="ion-text-left">
+            <ion-button fill="clear" size="small" color="primary">
+              <ion-icon name="eye" slot="start"></ion-icon>
+              Ver más
+            </ion-button>
+          </ion-col>
+          <ion-col size="4" class="ion-text-center">
+            <ion-button fill="clear" size="small" color="primary">
+              <ion-icon name="share-alt" slot="start"></ion-icon>
+              Share
+            </ion-button>
+          </ion-col>
+          <ion-col size="4" lass="ion-text-right">
+            <ion-button fill="clear" size="small" color="primary">
+              <ion-icon name="cart" slot="start"></ion-icon>
+              Comprar
+            </ion-button>
+          </ion-col>
+        </ion-row>
+
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>

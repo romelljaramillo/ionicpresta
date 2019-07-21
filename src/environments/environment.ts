@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  url: 'localhost/prestashop1752/api/',
+  apiKey: '72ALG2BTMV9HSUXARHT78EFGG2HRZXHH'
 };
 
 /*
